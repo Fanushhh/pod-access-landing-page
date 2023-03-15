@@ -1,14 +1,14 @@
 
 import { GlobalStyle } from './styles/_resets';
 import { variables } from './styles/variables.js';
-import { data } from '../data';
+import { data } from './data';
 import styled from 'styled-components';
 import Hero from './components/Hero/Hero';
 import Form from './components/Form/Form';
 
 const Main = styled.main`
   height: 100vh;
-  background-image: url('/assets/mobile/image-host.jpg');
+  background-image: url('/public/assets/mobile/image-host.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -40,7 +40,7 @@ const Main = styled.main`
     position: relative;
     padding: 3.87rem 2.5rem 5.87rem;
     &::after{
-      background-image: url('/assets/tablet/image-host.jpg');
+      background-image: url('/public/assets/tablet/image-host.jpg');
       background-repeat: no-repeat;
       background-position: top right;
       background-size: 500px;
@@ -52,7 +52,7 @@ const Main = styled.main`
       content:'';
       display: block;
       position: absolute;
-      background-image: url('/assets/desktop/bg-pattern-dots.svg');
+      background-image: url('/public/assets/desktop/bg-pattern-dots.svg');
       background-size: contain;
       background-repeat: no-repeat;
       height: 100px;
@@ -67,7 +67,7 @@ const Main = styled.main`
     padding: 8.125rem  10.31rem;
 
     &::after{
-      background-image: url('/assets/desktop/image-host.jpg');
+      background-image: url('/public/assets/desktop/image-host.jpg');
       background-size: 900px;
       background-position: top 149px right;
     }
