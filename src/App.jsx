@@ -1,10 +1,8 @@
-
 import { GlobalStyle } from './styles/_resets';
 import { variables } from './styles/variables.js';
 import { data } from './data';
 import styled from 'styled-components';
 import Hero from './components/Hero/Hero';
-import Form from './components/Form/Form';
 
 const Main = styled.main`
   height: 100vh;
