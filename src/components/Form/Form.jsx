@@ -2,9 +2,7 @@ import { useState } from "react";
 import styled from "styled-components";
 import { variables } from "../../styles/variables";
 import { ValidateEmail } from "../../utils/utils";
-const StyledForm = styled.form.attrs(props => ({
-    type: 'submit',
-}))`
+const StyledForm = styled.form`
     position: relative;
     z-index: 3;
     width: 100%;

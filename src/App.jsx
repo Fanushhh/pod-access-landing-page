@@ -63,16 +63,17 @@ const Main = styled.main`
 
   @media screen and (min-width:62.5rem) {
     padding: 8.125rem  10.31rem;
-
+    justify-content: flex-end;
     &::after{
       background-image: url('./assets/desktop/image-host.jpg');
-      background-size: 900px;
-      background-position: top 149px right;
+      background-size: 880px;
+      background-position: right bottom 130px;
+      padding-bottom: inherit;
     }
     &::before{
       right:0;
       left:auto;
-      bottom:230px;
+      bottom:80px;
     }
   }
 `

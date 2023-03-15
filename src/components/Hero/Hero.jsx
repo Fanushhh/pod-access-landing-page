@@ -40,7 +40,7 @@ const Hero = styled.section`
 
     @media screen and (min-width: 62.5rem) { 
         width: 45.31rem;
-
+        
         .podcastLogoImg{
             top: 7.5rem;
         }
@@ -97,7 +97,7 @@ const StyledLogoContainer = styled.div`
         margin-top: 1rem;
         & img{
             max-width: 130px;
-            height:30px;
+            height: auto;
         }
     }
 `
